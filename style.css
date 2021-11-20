@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+section{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: 0px;
+
+background-color: rgb(12, 10, 10);
+position: relative;
+}
+span{
+    color: red;
+    padding: 3px;
+}
+.TextArea{
+ color: gray;
+ width: 30%;
+ display: flex;
+}
+.TextArea h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    margin-left: 2rem;
+}
+.imagesARea{
+    width: 60%;
+}
+.imagesARea p{
+
+font-size: 8px;
+line-height: 8px;
+background:url(aadrohi.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+-webkit-background-clip:text;
+background-attachment: fixed;
+-webkit-text-fill-color:rgba(255,255,255,0);
+}
+
+@media only screen and (max-width: 770px) {
+    .TextArea h1{
+        
+        font-size: 2.5em;
+        margin-left: 1rem;
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .TextArea h1{
+        
+        font-size: 2em;
+        margin-left: 0.9rem;
+    }
+    .imagesARea{
+        width: 100%;
+        position: relative;
+
+    }
+    .TextArea{
+        bottom: 50px ;
+       left: 20%;
+       position: absolute;
+       width: 300px;
+       
+       }
+  }
+@media only screen and (max-width: 290px) {
+    .TextArea h1{
+        
+        font-size: 2em;
+        margin-left: 0.9rem;
+    }
+    .imagesARea{
+        width: 100%;
+        position: relative;
+
+    }
+    .TextArea{
+        bottom: 50px ;
+       left: 50px;
+       position: absolute;
+       width: 300px;
+       
+       }
+  }
